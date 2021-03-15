@@ -13,7 +13,7 @@ jobs:
     name: Pruebas
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout de repositorio
+    - name: Checkout de repositorio 1
       uses: actions/checkout@v2
     - name: Configuración de entorno de python
       uses: actions/setup-python@v2
